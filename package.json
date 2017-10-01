@@ -1,0 +1,7 @@
+{
+    "name": "scaffold",
+    "description": "A scaffold for a webapp. Webpack, React, Sass, Typescript.",
+    "devDependencies": {
+        "webpack": "^3.6.0"
+    }
+}
