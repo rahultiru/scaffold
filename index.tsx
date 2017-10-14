@@ -1,8 +1,9 @@
-class Mangler {
-  program: any;
-  constructor(program) {
-    this.program = program;
-  }
-}
-// need this since otherwise Mangler isn't used
-new Mangler('program');
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+
+import Hello from "./src/Hello";
+
+ReactDOM.render(
+    <Hello compiler="TypeScript" framework="React" />,
+    document.getElementById("example")
+);
