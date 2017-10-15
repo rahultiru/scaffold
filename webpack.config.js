@@ -18,6 +18,12 @@ module.exports = {
           // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
           { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
 
+          // All sass files with a '.scss' extension will be compiled to css
+          {
+            test: /\.scss$/,
+            loaders: ['style-loader', 'css-loader', 'sass-loader']
+          },
+
           // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
           { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
       ]

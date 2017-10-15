@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+require('./hello.scss');
 interface HelloProps {
   compiler: string;
   framework: string;
