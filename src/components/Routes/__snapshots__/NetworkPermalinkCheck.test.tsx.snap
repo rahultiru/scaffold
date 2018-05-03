@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NetworkPermalinkCheck renders 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    path="/:networkPermalink"
+  />
+  <Connect(Redirect) />
+</Switch>
+`;

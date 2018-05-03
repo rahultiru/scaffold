@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMain renders 1`] = `
+<main
+  className="AppMain"
+  role="main"
+>
+  <Block
+    textSize="medium"
+  >
+    foo
+  </Block>
+</main>
+`;

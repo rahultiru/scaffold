@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppNavigationButtons renders 1`] = `
+<LayoutList
+  className="AppNavigationButtons"
+  direction="horizontal"
+  gutterSize="small"
+>
+  <LayoutListItem>
+    <AppNavigationButton
+      href="/home"
+      icon={[Function]}
+      qaSelector="qaNavHome"
+      text="Home"
+    />
+  </LayoutListItem>
+  <LayoutListItem>
+    <AppNavigationButton
+      href="/inbox"
+      icon={[Function]}
+      qaSelector="qaNavInbox"
+      text="Inbox"
+    />
+  </LayoutListItem>
+  <LayoutListItem>
+    <AppNavigationButton
+      href="/notifications"
+      icon={[Function]}
+      qaSelector="qaNavNotifications"
+      text="Notifications"
+    />
+  </LayoutListItem>
+</LayoutList>
+`;

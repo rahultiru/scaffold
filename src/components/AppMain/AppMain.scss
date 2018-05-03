@@ -1,0 +1,16 @@
+.AppMain {
+  padding: 24px;
+  font-size: 1.6rem;
+}
+
+@media (--small-screen) {
+  .AppMain {
+    padding: 24px 32px;
+  }
+}
+
+@media (--large-screen) {
+  .AppMain {
+    padding: 24px 40px;
+  }
+}

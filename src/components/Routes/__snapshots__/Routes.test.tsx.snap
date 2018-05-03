@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes renders 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/:networkPermalink/home"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/:networkPermalink/inbox"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/:networkPermalink/notifications"
+  />
+  <Route
+    exact={true}
+    path="/:networkPermalink/groups/:groupId"
+  />
+  <Route
+    exact={true}
+    path="/:networkPermalink/threads/:threadId"
+  />
+  <Route
+    exact={true}
+    path="/:networkPermalink/users/:userId"
+  />
+  <Connect(Redirect) />
+</Switch>
+`;

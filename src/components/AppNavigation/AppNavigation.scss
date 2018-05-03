@@ -1,0 +1,22 @@
+.AppNavigation {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: var(--appNavigationBackgroundColor);
+}
+
+.AppNavigation__header {
+  flex: 0 auto;
+}
+
+.AppNavigation__body {
+  flex: 1 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+
+@media (--medium-screen) {
+  .AppNavigation__body {
+    display: block;
+  }
+}

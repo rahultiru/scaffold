@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppNavigation body content renders 1`] = `
+<div
+  className="AppNavigation__body"
+>
+  <Block
+    textSize="mediumSub"
+  >
+    <LoadableNavigationGroups />
+  </Block>
+</div>
+`;
+
+exports[`AppNavigation renders 1`] = `
+<nav
+  className="AppNavigation"
+  role="navigation"
+>
+  <div
+    className="AppNavigation__header"
+  >
+    <Block
+      padding="large"
+      textSize="mediumSub"
+      topSpacing="xSmall"
+    >
+      <div
+        className="AppNavigation__header"
+      >
+        <AppNavigationButtons />
+        <Block
+          topSpacing="large"
+        >
+          <LoadableGlobalSearchBox />
+        </Block>
+      </div>
+    </Block>
+  </div>
+  <ResponsiveRender
+    breakpoint={1024}
+    renderAbove={[Function]}
+  />
+</nav>
+`;
